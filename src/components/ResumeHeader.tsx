@@ -19,19 +19,19 @@ export const ResumeHeader = ({ name, title, summary }: ResumeHeaderProps) => {
         <div className="flex flex-col">
           <div className="contact-item">
             <Mail className="contact-icon h-4 w-4" />
-            <span>sarah.mitchell@email.com</span>
+            <span>jaykrishna316@email.com</span>
           </div>
           <div className="contact-item">
             <Phone className="contact-icon h-4 w-4" />
-            <span>(555) 123-4567</span>
+            <span>(817)-821-XXXX</span>
           </div>
           <div className="contact-item">
             <Linkedin className="contact-icon h-4 w-4" />
-            <span>linkedin.com/in/sarahmitchell</span>
+            <span>linkedin.com/in/jayichapurapu</span>
           </div>
           <div className="contact-item">
             <MapPin className="contact-icon h-4 w-4" />
-            <span>San Francisco, CA</span>
+            <span>Dallas,TX</span>
           </div>
         </div>
       </div>
