@@ -121,4 +121,31 @@ export const ResumeMain = () => {
       </div>
     </div>
   );
-};
+        <div>
+          <div className="flex flex-col md:flex-row md:justify-between">
+            <div className="flex items-center">
+              <School className="h-4 w-4 text-accent mr-2" />
+              <span className="job-title">B.S., Computer Science</span>
+              <span className="mx-2">|</span>
+              <span className="company-name">Stanford University</span>
+            </div>
+            <div className="flex items-center mt-1 md:mt-0">
+              <Calendar className="h-4 w-4 text-accent mr-1" />
+              <span className="date-range">2010 - 2014</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className="resume-section">
+        <h3 className="section-title">Key Achievements</h3>
+        <ul className="list-disc list-inside space-y-2">
+          <li className="text-sm">Received the "Excellence in Program Management" award for leading a critical product launch that generated $5M in new revenue within the first quarter.</li>
+          <li className="text-sm">Improved program governance and reporting, resulting in 30% reduction in executive escalations and higher stakeholder confidence.</li>
+          <li className="text-sm">Successfully managed a global team across 5 time zones, establishing effective communication protocols that improved collaboration and reduced delivery time by 20%.</li>
+          <li className="text-sm">Pioneered a hybrid project management approach combining Agile and traditional methodologies that has become a standard practice within the organization.</li>
+        </ul>
+      </div>
+    </div>
+  );
+}
